@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ithzzc.cloud.modules.system.mapper.ActionLogMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ithzzc.cloud.modules.system.entity.ActionLog">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="type" property="type" />
+        <result column="ipaddr" property="ipaddr" />
+        <result column="clazz" property="clazz" />
+        <result column="method" property="method" />
+        <result column="model" property="model" />
+        <result column="record_id" property="recordId" />
+        <result column="message" property="message" />
+        <result column="create_date" property="createDate" />
+        <result column="oper_name" property="operName" />
+        <result column="oper_by" property="operBy" />
+    </resultMap>
+
+</mapper>
